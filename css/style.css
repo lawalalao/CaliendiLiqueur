@@ -1,0 +1,397 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+h1{
+	font-family: 'Noto Serif', serif;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 65px;
+	color: #672A2A;
+
+
+}
+h2{
+font-family: 'Noto Serif', serif;
+font-size: 32px;
+line-height: 42px;
+color: #672A2A;
+}
+p{
+font-family: 'Montserrat', sans-serif;
+font-size: 22px;
+line-height: 28px;	
+font-weight: 400;
+word-spacing: 5px;
+}
+a{
+font-family: 'Montserrat', sans-serif;
+font-size:16px;
+line-height: 29px;
+text-decoration:none;	
+}
+a:hover{
+	text-decoration: none;
+}
+
+
+/* start header/hero section */
+.header-section{
+   background: #F7DBAF;
+  padding: 25px 0px;
+}
+.header-section h1{
+	padding-top: 100px;
+}
+.header-section p{
+	padding-top: 50px;
+}
+.header-section .headerbtn{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.header-section span{
+  font-size:
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  float: right;
+  line-height: 19.5px; 
+  color: #672A2A;
+}
+.header-section .logo img{
+	width: 220px;
+}
+
+.header-section .hero-image{
+	width: 100%;
+}
+.header-section .commander {
+	border: 1px solid #B42607;
+	background: transparent;
+	padding: 5px 15px;
+}
+.header-section .commander i{
+color: #B42607;
+padding: 0px 5px;
+}
+.header-section .commander a{
+color: #B42607;
+font-weight: 600;
+}
+.header-section .reserver {
+	border:none; 
+	background: #B42607;;
+	padding: 5px 15px;
+	margin: 15px 0px;
+}
+
+.header-section .reserver a{
+color: white;
+font-weight: 600;
+}
+/* End header/hero section */
+
+
+/*start sodabi section[2-Tradition • Nature • Modernisme]*/
+.sodabi{
+padding-bottom: 25px;
+}
+.sodabi img{
+width: 100%;
+padding: 0px 100px;
+}
+
+.sodabi h2{
+	padding: 0px 10px;
+	padding-top: 100px;
+}
+.sodabi p{
+	padding: 0px 10px;
+	padding-top: 50px;
+}
+
+.sodabi button{
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #F9B447;
+}
+.sodabi button a{
+	color: #F9B447;
+}
+.unicite{
+	background
+}
+.my-container {
+ position: relative;
+   height: 100vh; 
+      overflow: hidden;
+}
+
+.my-container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-0%);
+    width: 50%;
+    height: 100vh;
+    z-index: 1;
+    opacity: 0.2;
+    background-image: url('https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-6/s600x600/263563351_657952475219124_8593986430423432848_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeHb4v1nUxc-LMh2_K19s6Ynm5-Qte4KAFybn5C17goAXLc2GXxoIg4KXPONyzYqCrbfpimR2TpSfJUbXS5zZ-Z8&_nc_ohc=RYPofZQqcn0AX9xtTp2&_nc_ht=scontent.fdac23-1.fna&oh=677be123a79658035b3eaf3f08813fb1&oe=61B0C657');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.unicite h2{
+	padding-top: 120px;
+}
+.unicite p{
+	padding-top: 50px;
+}
+.unicide-desc{
+	margin-top: 20px;
+	padding: 0px 25px;
+
+}
+
+.unicide-desc span{
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;	
+}
+/*end sodabi section[2-Tradition • Nature • Modernisme]*/
+
+/*start Saveurs diversifiées section[4-Saveurs diversifiées]*/
+.Saveurs{
+	padding: 100px 0px;
+}
+.Saveurs .Saveurs-desc{
+	padding-top: 120px;
+}
+.Saveurs img{
+width:100%;
+}
+.Saveurs .p{
+	padding-top: 50px;
+}
+.Saveurs .p2{
+	padding-top: 25px;
+}
+.Saveurs  .commander {
+	border:none;background: #FFC466;
+	border: 1px solid black;
+	padding: 0px 10px;
+	margin-top:50px;
+	margin-bottom: 50px;
+}
+.Saveurs  .commander i{
+color: black;
+padding: 0px 5px;
+}
+.Saveurs .commander a{
+color: black;
+font-weight: 600;
+}
+/*end Saveurs diversifiées section[4-Saveurs diversifiées]*/
+
+
+/*start testomonial carousel section[5-testomonial carousel]*/
+#demo {
+  
+    width:100% 
+    margin: auto
+}
+
+.carousel-caption {
+    position: initial;
+    z-index: 10;
+    padding: 5rem 8rem;
+    color: rgba(78, 77, 77, 0.856);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption {
+        position: initial;
+        z-index: 10;
+        padding: 3rem 2rem;
+        color: rgba(78, 77, 77, 0.856);
+        text-align: center;
+        font-size: 0.7rem;
+        font-style: italic;
+        font-weight: bold;
+        line-height: 1.5rem
+    }
+}
+
+.carousel-caption img {
+    width: 6rem;
+    border-radius: 5rem;
+    margin-top: 2rem
+}
+
+@media(max-width:767px) {
+    .carousel-caption img {
+        width: 4rem;
+        border-radius: 4rem;
+        margin-top: 1rem
+    }
+}
+
+#image-caption {
+    font-style: normal;
+    font-size: 1rem;
+    margin-top: 0.5rem
+}
+
+@media(max-width:767px) {
+    #image-caption {
+        font-style: normal;
+        font-size: 0.6rem;
+        margin-top: 0.5rem
+    }
+}
+
+i {
+    color: black;
+    padding: 1.4rem;
+    font-size:36px;
+}
+
+@media(max-width:767px) {
+    i {
+        padding: 0.8rem
+    }
+}
+
+.carousel-control-prev {
+    justify-content: flex-start
+}
+
+.carousel-control-next {
+    justify-content: flex-end
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    transition: none;
+    opacity: unset
+}
+
+/*end testomonial carousel section[5-testomonial carousel]*/
+
+
+/*start footer section*/
+.footer{
+background: #672A2A;
+
+
+}
+.footer .container{
+text-align: center;	
+}
+.footer h2{
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+}
+.footer .commander {
+	border:none;background: #FFC466;
+	border: 1px solid black;
+	padding: 0px 10px;
+	margin-top:35px;
+}
+.footer .commander i{
+color: black;
+padding: 0px 5px;
+}
+.footer .commander a{
+color: black;
+font-weight: 600;
+}
+.footer span{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+.footer i{
+	color: white;
+}
+
+.footer-icon{
+	padding: 0px 35px;
+}
+.sodabi img{
+width: 100%;
+padding: 0px 100px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+.sodabi img{
+width: 100%;
+padding: 0px 10px;
+}
+.footer .flogo{
+	padding:50px 0px;
+	width: 100%;
+}
+	}
+@media only screen and (max-width: 992px) {
+.footer-icon {
+    display: none
+  }
+  .hotline{
+  	display: none;
+  }
+  .sodabi img{
+width: 100%;
+}
+.my-container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%,-0%);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+    opacity: 0.2;
+    background-image: url('https://scontent.fdac23-1.fna.fbcdn.net/v/t39.30808-6/s600x600/263563351_657952475219124_8593986430423432848_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_eui2=AeHb4v1nUxc-LMh2_K19s6Ynm5-Qte4KAFybn5C17goAXLc2GXxoIg4KXPONyzYqCrbfpimR2TpSfJUbXS5zZ-Z8&_nc_ohc=RYPofZQqcn0AX9xtTp2&_nc_ht=scontent.fdac23-1.fna&oh=677be123a79658035b3eaf3f08813fb1&oe=61B0C657');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.my-container {
+ position: relative;
+height: auto;
+}
+.footer-icon{
+	float: left;
+}
+}
+/*end footer section*/
